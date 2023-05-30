@@ -1,0 +1,52 @@
+body{
+    background-image:url(pic6.jpg);
+    background-size:cover;
+    
+}
+
+.title1{
+    color: rgb(255, 0, 111);
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+.title2{
+    color: rgb(112, 112, 232);
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+    align-items: center;
+    text-decoration: underline;
+}
+
+
+.title3{
+    color: rgb(210, 30, 162);
+    font-size: 25px;
+}
+
+
+.title4{
+    color: rgb(228, 59, 118);
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+    align-items: center;
+}
+
+
+.entry{
+    font-size: larger;
+    font-weight: 400;    
+}
+
+
+#down{
+    margin-bottom: 100px;     
+     
+}
+
+.ans{
+    color: coral;
+}

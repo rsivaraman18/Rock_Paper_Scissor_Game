@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Index </title>
+    <link rel="stylesheet" href="../static/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/mystyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <h1 class="title1">Game Zone</h1>
+        </div>
+        
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6 container1">
+                <div class="d-flex justify-content-center">
+                    <h1 class="title2">Game Time </h1>    
+                </div> 
+                <form action="/" method="post">
+                    <div class="entry">
+                        <label for="usin">Select Your Choice : </label><br>
+                        <input type="radio" name="uchoice" value="stone"> stone <br>
+                        <input type="radio" name="uchoice" value="paper"> paper <br>
+                        <input type="radio" name="uchoice" value="scissor"> Scissor
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Submit your Choice" class="btn btn-success btn-lg">
+                    </div>
+                </form> 
+                
+            </div>
+    
+
+
+            <div class="col-md-6 container2">
+
+                <div class="d-flex justify-content-center">
+                    <h1 class="title2">Score Card</h1>    
+                </div> 
+
+                <div>
+                    <h2 class="title3">Computer Score  {{  caldata['cpts'] }} </h2>
+                    <h2 class="title3">Player Score {{ caldata['upts']  }}  </h2>
+
+                    <hr>
+
+                    <h2 class="title3">Computer Entered : {{ caldata['comp'] }} </h2>
+                    <h2 class="title3">Player Entered :   {{ caldata['user'] }}  </h2>
+                    <h2 class="title3">{{ caldata['pt'] }}  </h2>
+                    
+                </div>
+            </div>
+
+           
+            
+        </div>
+       
+    </div>
+
+<div class="container">
+    <hr>
+
+    <div class="d-flex justify-content-center">
+        <h1 class="title4"> {{caldata['won']}}</h1>   
+        
+    </div>
+    <hr id="down">
+
+    <div class="row">   
+        <div class="offset-md-4">
+            <a href=""  class="btn btn-success btn-lg"> Play again </a>
+        </div>
+        <div class="col-md-4">
+            <a href=""  class="btn btn-danger btn-lg"> Exit Game </a>
+        </div>      
+    </div>
+    
+</div>
+
+    
+</body>
+</html>

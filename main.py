@@ -89,3 +89,10 @@ def calculation(uc):
        
 if __name__ == '__main__':
     app.run(debug=True)
+    
+    
+'''
+This game is based on prediction of events.
+Here  Session is used to save the data locally.
+Random was the function used to generate numbers randomly.
+'''

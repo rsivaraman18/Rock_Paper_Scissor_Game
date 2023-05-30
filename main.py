@@ -97,4 +97,5 @@ Here  Session is used to save the data locally.
 Random was the function used to generate numbers randomly.
 Based on the Points gained winner is decided.
 Here the Player who scored above 3points are considered as winner.
+If both plays the same option then half point will be credited to both.
 '''

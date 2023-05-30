@@ -92,10 +92,14 @@ if __name__ == '__main__':
     
     
 '''
-This game is based on prediction of events.
+flask Module to use Flask frame work.
 Here  Session is used to save the data locally.
 Random was the function used to generate numbers randomly.
+
+This game is based on prediction of events.
 Based on the Points gained winner is decided.
 Here the Player who scored above 3points are considered as winner.
 If both plays the same option then half point will be credited to both.
+
+
 '''

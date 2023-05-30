@@ -95,4 +95,6 @@ if __name__ == '__main__':
 This game is based on prediction of events.
 Here  Session is used to save the data locally.
 Random was the function used to generate numbers randomly.
+Based on the Points gained winner is decided.
+Here the Player who scored above 3points are considered as winner.
 '''

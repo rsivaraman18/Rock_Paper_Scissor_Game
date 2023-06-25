@@ -17,7 +17,7 @@ def gamepage():
 
     result = {'user':'','comp':'','upts':0,'cpts':0,'pt':'','won':''}
     return render_template('gamepage.html',caldata=result)
-
+ 
 
 def calculation(uc):
     user = uc 

@@ -19,7 +19,6 @@ def gamepage():
     return render_template('gamepage.html',caldata=result)
 
 
-
 def calculation(uc):
     user = uc 
     game= {1:'stone' , 2:'paper' , 3:'scissor'}

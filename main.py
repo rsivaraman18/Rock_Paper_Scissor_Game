@@ -9,7 +9,7 @@ def gamepage():
     if request.method=='POST':
         uc = request.form['uchoice']  
         caldata = calculation(uc) 
-        
+         
         return render_template('gamepage.html',caldata=caldata) 
 
     session.pop('cpts', None)  

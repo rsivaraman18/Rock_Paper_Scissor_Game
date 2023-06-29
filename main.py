@@ -4,6 +4,7 @@ import random
 app = Flask(__name__)
 app.secret_key = '1234'
 
+
 @app.route('/',methods=['GET',"POST"])
 def gamepage():
     if request.method=='POST':
